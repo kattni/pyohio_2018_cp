@@ -10,7 +10,7 @@ Participants will will need to install pip:
  * Mac OS: type `brew install pip3`.
  * Linux: run `sudo apt install python3-pip`.
 
-Windows users must know how to create a virtual environment and be able to access the serial port. Once in the virtual environment, install Mu by running `pip3 install mu-editor`.
+Windows users may install Mu beta15 from [here](https://s3-eu-west-2.amazonaws.com/mu-builds/windows/mu_2018-02-21_15_12_master_2a33437_32bit.exe). For the latest version, Windows users must know how to create a virtual environment and be able to access the serial port. Once in the virtual environment, install the latest Mu by running `pip3 install mu-editor`.
 
 Linux users must create a virtual environment: `python3 -m venv pyohiocp`. To activate the virtual environment, run `source ~/pyohio/bin/activate`. Once inside the virtual environment, install Mu by running `pip3 install mu-editor`.
 
