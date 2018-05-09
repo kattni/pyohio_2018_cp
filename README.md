@@ -23,3 +23,8 @@ To run Mu on Windows, from inside the venv, type `mu` into the command prompt.
 To run Mu on Mac, type `mu` into the command line.
 
 To run Mu on Linux, from inside the venv, type `python3 -m mu` into the command line.
+
+## Inside Mu editor
+Once you've opened Mu, it will present you with a list of options. For this tutorial, choose "Adafruit CircuitPython". 
+
+If there is no CircuitPython compatible board plugged in when the editor is opened, there will be a dialog box that starts with "Could not find an attached Adafruit CircuitPython device". This is normal. 
