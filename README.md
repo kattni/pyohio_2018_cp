@@ -1,5 +1,5 @@
 ## Setup
-For this tutorial, participants will want to install Mu editor. More advanced participants may install Atom or PyCharm. Serial port access to the Circuit Python Express may use `screen` on Mac or Linux or PuTTY on Windows. Everyone may wish to install Mu anyway as there are a few examples that makes use of the plotter function in Mu editor.
+For this tutorial, participants will want to install Mu editor. More advanced participants may install Atom or PyCharm. Serial port access to the Circuit Python Express may use `screen` on Mac or Linux or PuTTY on Windows. Everyone may wish to install Mu anyway as there are a few examples that make use of the plotter function in Mu editor.
 
 ## Install Python 3
 Participants will need to install Python 3. On Windows, it's easiest to download the IDE from the [Python.org](https://www.python.org/downloads/) (tick the "Add paths" box on installation). On Mac, install [Homebrew](https://brew.sh/), and then run `brew install python3`. On Linux, run `sudo apt install python3`.
