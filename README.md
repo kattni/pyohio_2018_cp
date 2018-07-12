@@ -1,31 +1,39 @@
 ## Setup
-For this tutorial, participants will want to install Mu editor. More advanced participants may install Atom or PyCharm. Serial port access to the Circuit Python Express may use `screen` on Mac or Linux or PuTTY on Windows. Everyone may wish to install Mu anyway as there are a few examples that make use of the plotter function in Mu editor.
+For this tutorial, participants will want to install Mu editor. More advanced participants may
+install Atom or PyCharm. Serial port access to the Circuit Python Express may use `screen` on
+Mac, or Linux, or PuTTY on Windows. Everyone may wish to install Mu anyway as there are a few
+examples that make use of the plotter function in Mu editor.
 
-## Install Python 3
-Participants will need to install Python 3. On Windows, it's easiest to download the IDE from the [Python.org](https://www.python.org/downloads/) (tick the "Add paths" box on installation). On Mac, install [Homebrew](https://brew.sh/), and then run `brew install python3`. On Linux, run `sudo apt install python3`.
+## To install Mu editor on Mac or Windows:
+Windows users may install Mu from [here](https://codewith.mu/en/download).
 
-## To install Mu editor:
-Participants will will need to install pip:
- * Windows: pip is included with the Python 3 install.
- * Mac OS: type `brew install pip3`.
- * Linux: run `sudo apt install python3-pip`.
+Mac users may install Mu from [here](https://codewith.mu/en/download).
 
-Windows users may install Mu beta15 from [here](https://s3-eu-west-2.amazonaws.com/mu-builds/windows/mu_2018-02-21_15_12_master_2a33437_32bit.exe). For the latest version, Windows users must know how to create a virtual environment and be able to access the serial port. Once in the virtual environment, install the latest Mu by running `pip3 install mu-editor`.
+## To install Mu editor on Linux x86:
+Linux users must install Python 3 by running `sudo apt install python3`. Then, install
+`pip3` by running `sudo apt install python3-pip`.
 
-Linux users must create a virtual environment: `python3 -m venv pyohiocp`. To activate the virtual environment, run `source ~/pyohio/bin/activate`. Once inside the virtual environment, install Mu by running `pip3 install mu-editor`.
+Next, create a virtual environment: `python3 -m venv pyohiocp`. To activate the virtual
+environment, run `source ~/pyohiocp/bin/activate`. Once inside the virtual environment
+`(pyohiocp)`, run `pip3 install --upgrade pip` to bring `pip3` up-to-date. Then, install Mu by
+running `pip3 install mu-editor`.
 
-Mac users should install Mu by running `pip3 install mu-editor`.
-
-Linux users must also add their user to the dialout group. From the command line, run `nano /etc/group`. Find the line with `dialout:` and add your user to the end, after a comma with no space, i.e. `dialout:foo,your_user`.
+Linux users must also add their user to the dialout group. From the command line, run
+`nano /etc/group`. Find the line with `dialout:` and add your user to the end, after a comma
+with no space, i.e. `dialout:foo,your_user`.
 
 ## Running Mu editor
-To run Mu on Windows, from inside the venv, type `mu` into the command prompt.
+To run Mu on Windows, double-click the icon.
 
-To run Mu on Mac, type `mu` into the command line.
+To run Mu on Mac, double-click the icon in the Applications folder.
 
-To run Mu on Linux, from inside the venv, type `python3 -m mu` into the command line.
+To run Mu on Linux, from inside the virtual environment, type `python3 -m mu` into the
+command line.
 
 ## Inside Mu editor
-Once Mu is opened, it will present a list of options. For this tutorial, choose "Adafruit CircuitPython". 
+Once Mu is opened, it will present a list of options. For this tutorial, choose "Adafruit
+CircuitPython".
 
-If there is no CircuitPython compatible board plugged in when the editor is opened, there will be a dialog box that starts with "Could not find an attached Adafruit CircuitPython device". This is normal. 
+If there is no CircuitPython compatible board plugged in when the editor is opened, there will
+be a dialog box that starts with "Could not find an attached Adafruit CircuitPython device".
+This is normal.
