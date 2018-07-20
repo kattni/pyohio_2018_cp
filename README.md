@@ -1,8 +1,18 @@
+## Code for Tutorial
+This repo contains all the code used in the tutorial. To access it during the tutorial,
+participants can view it on the web, and copy and paste as they follow along. They may wish to
+have the files available locally. To do this, install `git` and clone the repo to your machine
+using `git clone https://github.com/kattni/pyohio_2018_cp` to create a directory containing the
+contents of the repo.
+
+Please do a `git pull` on this cloned repository either *in the evening of Saturday July 28 or 
+in the morning of Sunday July 29*.
+
 ## Setup
 For this tutorial, participants will want to install Mu editor. More advanced participants may
-install Atom or PyCharm. Serial port access to the Circuit Python Express may use `screen` on
-Mac, or Linux, or PuTTY on Windows. Everyone may wish to install Mu anyway as there are a few
-examples that make use of the plotter function in Mu editor.
+install Atom or PyCharm. If not using Mu, to access the serial console use `screen` on
+Mac, or Linux, or PuTTY on Windows. Everyone may wish to install Mu, however, as there are a few
+examples that make use of the plotter function in Mu.
 
 ## To install Mu editor on Mac or Windows:
 Windows users may install Mu from [here](https://codewith.mu/en/download).
