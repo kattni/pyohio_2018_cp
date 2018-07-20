@@ -4,6 +4,9 @@ install Atom or PyCharm. If not using Mu, to access the serial console use `scre
 Mac, or Linux, or PuTTY on Windows. Everyone may wish to install Mu, however, as there are a few
 examples that make use of the plotter function in Mu.
 
+Mu 1.0 was released on 20 July 2018. If you installed Mu before this, please update to the most
+recent version.
+
 ## To install Mu editor on Mac or Windows:
 Windows users may install Mu from [here](https://codewith.mu/en/download).
 
