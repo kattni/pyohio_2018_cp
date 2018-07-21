@@ -18,17 +18,18 @@ Windows users may install Mu from [here](https://codewith.mu/en/download).
 Mac users may install Mu from [here](https://codewith.mu/en/download).
 
 ## To install Mu editor on Linux x86:
-Linux users must install Python 3 by running `sudo apt install python3`. Then, install
-`pip3` by running `sudo apt install python3-pip`.
+Linux users must be running Python 3.6 or newer. Install by running `sudo apt install python3`.
+Then, install `pip3` by running `sudo apt install python3-pip`.
 
-Next, create a virtual environment: `python3 -m venv pyohiocp`. To activate the virtual
-environment, run `source ~/pyohiocp/bin/activate`. Once inside the virtual environment
-`(pyohiocp)`, run `pip3 install --upgrade pip` to bring `pip3` up-to-date. Then, install Mu by
-running `pip3 install mu-editor`.
+Next, create a virtual environment: `python3.6 -m venv pyohiocp`. Follow the instructions to
+install `venv` if it is not already installed. To activate the virtual environment, run
+`source ~/pyohiocp/bin/activate`. Once inside the virtual environment `(pyohiocp)`, install Mu
+by running `pip3 install mu-editor`.
 
 Linux users must add their user to the `dialout` group to access the serial console output. From
 the command line, run `nano /etc/group`. Find the line with `dialout:` and add your user to the
-end of the line, after a comma with no space, i.e. `dialout:foo,your_user`.
+end of the line, after a comma with no space, i.e. `dialout:foo,your_user`. Then, log out of the
+user and log back in for the change to take affect.
 
 ## Running Mu editor
 To run Mu on Windows, double-click the icon.
