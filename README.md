@@ -49,9 +49,9 @@ This is normal.
 
 ## Code for Tutorial
 This repo contains all the code used in the tutorial. To access it during the tutorial,
-participants can view it on the web, and copy and paste as they follow along. They may wish to
-have the files available locally. To do this, install `git` and clone the repo to your machine
-using `git clone https://github.com/kattni/pyohio_2018_cp` to create a directory containing the
+you may view it on the web as you follow along. You may wish to have the files available
+locally. To do this, install `git` and clone the repo to your machine using
+`git clone https://github.com/kattni/pyohio_2018_cp` to create a directory containing the
 contents of the repo.
 
 If you choose to clone the repo locally, please do a `git pull` on this cloned repository either
