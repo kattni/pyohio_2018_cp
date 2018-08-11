@@ -1,16 +1,8 @@
 ## PyOhio 2018 *Welcome to CircuitPython* Tutorial
-Participants are expected to follow the setup instructions and have their machines ready before
-the tutorial at 12:45pm Sunday, 29 July 2018. Be aware that fully testing setup requires access
-to the hardware that will be used during the tutorial. I will be available during the day on
-Saturday 28 July 2018 with the necessary hardware. Please contact me via Discord or Twitter
-(@kattni) or via email (kattni@adafruit.com) to find me before the tutorial to verify that setup
-was successful. 
+The following instructions walk through setup needed to complete this tutorial. 
 
 ## Setup
 For this tutorial, participants will want to install Mu editor.
-
-Mu 1.0 was released on 20 July 2018. If you installed Mu before this, please update to the most
-recent version.
 
 ## To install Mu editor on Mac or Windows:
 Windows users may install Mu from [here](https://codewith.mu/en/download).
@@ -53,6 +45,3 @@ you may view it on the web as you follow along. You may wish to have the files a
 locally. To do this, install `git` and clone the repo to your machine using
 `git clone https://github.com/kattni/pyohio_2018_cp` to create a directory containing the
 contents of the repo.
-
-If you choose to clone the repo locally, please do a `git pull` on this cloned repository either
-*in the evening of Saturday July 28 or in the morning of Sunday July 29*.
